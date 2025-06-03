@@ -1,22 +1,32 @@
-🪙 CryptoBuddy – Your First AI-Powered Financial Sidekick!
-🚀 Project Overview
-CryptoBuddy is a beginner-friendly, rule-based chatbot designed to offer cryptocurrency investment advice based on profitability (price trends, market cap) and sustainability (energy efficiency, long-term viability).
+# 🪙 CryptoBuddy – Your First AI-Powered Financial Sidekick!
+
+## 🚀 Project Overview
+**CryptoBuddy** is a beginner-friendly, rule-based chatbot designed to offer cryptocurrency investment advice based on **profitability** (price trends, market cap) and **sustainability** (energy efficiency, long-term viability).  
 Built as part of a Week 1 AI Introduction Assignment, this project demonstrates simple AI-driven decision-making using Python.
 
-💡 Features
-Conversational chatbot interface using basic if-else logic
-Evaluates cryptocurrencies using predefined metrics
-Gives suggestions based on:
-Price trends
-Market capitalization
-Energy consumption
-Sustainability score
-🧠 Technologies Used
-Language: Python
-Libraries: (Optional) ChatterBot, NLTK
-Platform: Google Colab
-Version Control: Git + GitHub
-📊 Sample Dataset
+---
+
+## 💡 Features
+- Conversational chatbot interface using basic `if-else` logic
+- Evaluates cryptocurrencies using predefined metrics
+- Gives suggestions based on:
+  - Price trends
+  - Market capitalization
+  - Energy consumption
+  - Sustainability score
+
+---
+
+## 🧠 Technologies Used
+- **Language:** Python
+- **Libraries:** (Optional) ChatterBot, NLTK
+- **Platform:** Google Colab
+- **Version Control:** Git + GitHub
+
+---
+
+## 📊 Sample Dataset
+```python
 crypto_db = {
     "Bitcoin": {
         "price_trend": "rising",
@@ -37,38 +47,3 @@ crypto_db = {
         "sustainability_score": 8/10
     }
 }
-
-🧾 Example Conversation
-vbnet
-Copy
-Edit
-User: Which crypto should I buy for long-term growth?  
-CryptoBuddy: Cardano (ADA) is trending up and has a top-tier sustainability score! 🚀
-✅ How to Run
-Open CryptoBuddy.ipynb in Google Colab
-
-Run the cells to initiate the chatbot
-
-Ask questions about crypto profitability or sustainability
-
-📹 Deliverables
-✅ Google Colab notebook
-
-✅ GitHub Repository with code and screenshots
-
-✅ 30-second screen recording of bot interaction
-
-✅ 50-word summary on chatbot's decision logic
-
-🌱 Summary: AI Decision Logic (50 Words)
-CryptoBuddy mimics basic AI by using predefined rules to analyze cryptocurrency data. It makes decisions using simple if-else logic based on attributes like price trends, energy use, and sustainability scores. While not intelligent on its own, it demonstrates the foundations of AI decision-making using structured inputs and rule-based outputs.
-
-🛠️ Future Improvements
-Add NLP support for natural queries
-
-Integrate real-time data from CoinGecko API
-
-Deploy via Flask or Streamlit as a web app
-
-🧑‍💻 Created By
-Sophia Nakhanu | PLP AI Introduction Assignment
