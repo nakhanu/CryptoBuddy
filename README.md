@@ -47,3 +47,38 @@ crypto_db = {
         "sustainability_score": 8/10
     }
 }
+
+🧾 Example Conversation
+User: Which crypto should I buy for long-term growth?  
+CryptoBuddy: Cardano (ADA) is trending up and has a top-tier sustainability score! 🚀
+✅ How to Run
+Open CryptoBuddy.ipynb in Google Colab
+
+Run the cells to initiate the chatbot
+
+Ask questions about crypto profitability or sustainability
+
+📹 Deliverables
+✅ Google Colab notebook
+
+✅ GitHub Repository with code and screenshots
+
+✅ 30-second screen recording of bot interaction
+
+✅ 50-word summary on chatbot's decision logic
+
+⚠️ Disclaimer
+This chatbot is for educational purposes only and does not constitute financial advice. Always do your own research before investing in cryptocurrency.
+
+🌱 Summary: AI Decision Logic (50 Words)
+CryptoBuddy mimics basic AI by using predefined rules to analyze cryptocurrency data. It makes decisions using simple if-else logic based on attributes like price trends, energy use, and sustainability scores. While not intelligent on its own, it demonstrates the foundations of AI decision-making using structured inputs and rule-based outputs.
+
+🛠️ Future Improvements
+Add NLP support for natural queries
+
+Integrate real-time data from CoinGecko API
+
+Deploy via Flask or Streamlit as a web app
+
+🧑‍💻 Created By
+Sophia Nakhanu | PLP AI Introduction Assignment
