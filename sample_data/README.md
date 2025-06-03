@@ -1,19 +1,84 @@
-This directory includes a few sample datasets to get you started.
+# 🪙 CryptoBuddy – Your First AI-Powered Financial Sidekick!
 
-*   `california_housing_data*.csv` is California housing data from the 1990 US
-    Census; more information is available at:
-    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
+## 🚀 Project Overview
+**CryptoBuddy** is a beginner-friendly, rule-based chatbot designed to offer cryptocurrency investment advice based on **profitability** (price trends, market cap) and **sustainability** (energy efficiency, long-term viability).  
+Built as part of a Week 1 AI Introduction Assignment, this project demonstrates simple AI-driven decision-making using Python.
 
-*   `mnist_*.csv` is a small sample of the
-    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
-    described at: http://yann.lecun.com/exdb/mnist/
+---
 
-*   `anscombe.json` contains a copy of
-    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
-    was originally described in
+## 💡 Features
+- Conversational chatbot interface using basic `if-else` logic
+- Evaluates cryptocurrencies using predefined metrics
+- Gives suggestions based on:
+  - Price trends
+  - Market capitalization
+  - Energy consumption
+  - Sustainability score
 
-    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
-    Statistician. 27 (1): 17-21. JSTOR 2682899.
+---
 
-    and our copy was prepared by the
-    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
+## 🧠 Technologies Used
+- **Language:** Python
+- **Libraries:** (Optional) ChatterBot, NLTK
+- **Platform:** Google Colab
+- **Version Control:** Git + GitHub
+
+---
+
+## 📊 Sample Dataset
+```python
+crypto_db = {
+    "Bitcoin": {
+        "price_trend": "rising",
+        "market_cap": "high",
+        "energy_use": "high",
+        "sustainability_score": 3/10
+    },
+    "Ethereum": {
+        "price_trend": "stable",
+        "market_cap": "high",
+        "energy_use": "medium",
+        "sustainability_score": 6/10
+    },
+    "Cardano": {
+        "price_trend": "rising",
+        "market_cap": "medium",
+        "energy_use": "low",
+        "sustainability_score": 8/10
+    }
+}
+
+🧾 Example Conversation
+vbnet
+Copy
+Edit
+User: Which crypto should I buy for long-term growth?  
+CryptoBuddy: Cardano (ADA) is trending up and has a top-tier sustainability score! 🚀
+✅ How to Run
+Open CryptoBuddy.ipynb in Google Colab
+
+Run the cells to initiate the chatbot
+
+Ask questions about crypto profitability or sustainability
+
+📹 Deliverables
+✅ Google Colab notebook
+
+✅ GitHub Repository with code and screenshots
+
+✅ 30-second screen recording of bot interaction
+
+✅ 50-word summary on chatbot's decision logic
+
+🌱 Summary: AI Decision Logic (50 Words)
+CryptoBuddy mimics basic AI by using predefined rules to analyze cryptocurrency data. It makes decisions using simple if-else logic based on attributes like price trends, energy use, and sustainability scores. While not intelligent on its own, it demonstrates the foundations of AI decision-making using structured inputs and rule-based outputs.
+
+🛠️ Future Improvements
+Add NLP support for natural queries
+
+Integrate real-time data from CoinGecko API
+
+Deploy via Flask or Streamlit as a web app
+
+🧑‍💻 Created By
+Sophia Nakhanu | PLP AI Introduction Assignment
